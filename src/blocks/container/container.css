@@ -7,6 +7,13 @@
     padding-bottom: 20px;
 }
 
+.container_white{
+    width: 100%;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
 .container_width_full{
     width: 100%;
     max-width: 100%;
@@ -52,12 +59,24 @@
     margin: 0px auto;
 }
 
+.container__text_title{
+    font-weight: bold;
+}
+
+.container__text_black{
+    color: #000;
+}
 
 .container__img-top{
     margin: 0px auto;
     width: 285px;
     height: 285px;
     background: url("img/container__img-top.png") no-repeat center / cover;
+}
+
+.container__img-top__small{
+    width: 150px;
+    height: 150px;
 }
 
 .container__img_roadmap{
@@ -74,6 +93,29 @@
     max-height: 460px;
     background: url("img/screen5.png") no-repeat center / contain;
     margin: 0px auto;
+}
+
+.container__img_step1, .container__img_step2, .container__img_step3{
+    width: 274px;
+    height: 480px;
+    margin-bottom: 15px;
+    display: none;
+}
+
+.container__img_fullWidth{
+    width: 100%;
+    height: 39vw;
+    background: url("img/fullWidth.png") no-repeat center / contain;
+}
+
+.container__img_step1{
+    background: url("img/step1.png") no-repeat center / contain;
+}
+.container__img_step2{
+    background: url("img/step2.png") no-repeat center / contain;
+}
+.container__img_step3{
+    background: url("img/step3.png") no-repeat center / contain;
 }
 
 .container__roadmap-item{

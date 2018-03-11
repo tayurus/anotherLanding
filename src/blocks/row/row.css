@@ -16,6 +16,10 @@
     margin: 15px auto;
 }
 
+.row_steps{
+    margin-bottom: 15px;
+}
+
 .row_images, .row_links{
     justify-content: space-around;
     max-width: 1000px;
