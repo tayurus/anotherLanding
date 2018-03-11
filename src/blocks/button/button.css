@@ -48,7 +48,7 @@
 }
 
 
-@media (max-width:565px),(max-device-width:565px) {
+@media (max-width:623px),(max-device-width:623px) {
     .button_header{
         display: none;
     }

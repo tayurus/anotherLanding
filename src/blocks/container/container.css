@@ -103,7 +103,7 @@
     }
 }
 
-@media (max-width:950px), (max-device-width:950px) {
+@media (max-width:970px), (max-device-width:970px) {
     .container__img_roadmap{
         width: 100%;
         background: url("img/roadmap.png") no-repeat center / contain;
