@@ -1,0 +1,223 @@
+.timer{
+    max-width: 900px;
+    margin: 0px auto;
+    border-radius: 10px;
+    background-color: #00aff0;
+    padding: 23px 45px;
+}
+
+.timer__title{
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0px auto;
+    width: max-content;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timer__title::before{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 1px;
+    width: 120px;
+    left: -165px;
+    top: 14px;
+    background-color: #80d7f7;
+}
+.timer__title::after{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 1px;
+    width: 120px;
+    right: -165px;
+    top: 14px;
+    background-color: #80d7f7;
+}
+
+.timer__digits{
+    max-width: 513px;
+    margin: 0px auto;
+}
+
+.timer__item{
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.timer__text-wrapper_text_right{
+    text-align: right;
+}
+
+.timer__days, .timer__hours, .timer__minutes, .timer__seconds{
+    display: inline-block;
+    width: 47px;
+    color: #ffffff;
+    font-family: "Dosis - Semi Bold";
+    font-size: 46px;
+    margin-right: 8px;
+}
+
+.timer__text{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.timer__text_center{
+    text-align: center;
+}
+
+.timer__text_bold{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.timer__subtitle{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 25px auto;
+    width: max-content;
+    position: relative;
+}
+
+.timer__subtitle::before{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 1px;
+    width: 295px;
+    left: -331px;
+    top: 8px;
+    background-color: #80d7f7;
+}
+.timer__subtitle::after{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 1px;
+    width: 295px;
+    right: -331px;
+    top: 8px;
+    background-color: #80d7f7;
+}
+
+.timer__pay-method{
+    color: #ffffff;
+    position: relative;
+}
+
+.timer__pay-method:first-child{
+    margin-left: 27px;
+}
+
+.timer__pay-method::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 100%;
+    left: -40px;
+    top: -6px;
+}
+
+.timer__progress{
+    position: relative;
+    width:100%;
+    height: 41px;
+    background: #f4f4f4 url("img/progress.png") no-repeat left center / 74% 100%;
+    border-radius:35px;
+}
+
+.timer__progress-percents{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: calc(75% - 40px);
+    top: -4px;
+    color: #00aff0;
+    font-weight: 700;
+}
+
+.timer__text-wrapper_middle-mobile{
+    display: none;
+}
+
+@media (max-width:960px),(max-device-width:960px) {
+    .timer{
+        width: 90%;
+    }
+
+    .timer__subtitle::before{
+        width: 100%;
+        left: -111%;
+    }
+    .timer__subtitle::after{
+        width: 100%;
+        right: -111%;
+    }
+}
+
+@media (max-width:650px),(max-device-width:650px) {
+    .timer{
+        padding: 20px 10px;
+    }
+
+    .timer__pay-method:first-child {
+        margin-left: 35px;
+    }
+
+    .timer__subtitle::after {
+        width: 25%;
+        right: -50px;
+    }
+
+    .timer__subtitle::before{
+        width: 25%;
+        left: -50px;
+    }
+
+    .timer__title::before {
+        width: 20%;
+        left: -45px;
+    }
+    .timer__title::after {
+        width: 20%;
+        right: -45px;
+    }
+
+    .timer__text-wrapper.timer__text-wrapper_middle{
+        display: none;
+    }
+
+    .timer__text-wrapper_middle-mobile{
+        width: 215px;
+        display: block;
+        margin: 10px auto 0px auto;
+    }
+
+    .timer__item{
+        flex-direction: column;
+        font-size: 11px;
+    }
+
+    .timer__days, .timer__hours, .timer__minutes, .timer__seconds{
+        font-size: 36px;
+        margin: 0px;
+        width: auto;
+    }
+}

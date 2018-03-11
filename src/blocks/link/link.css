@@ -1,0 +1,21 @@
+.link{
+    text-decoration: none;
+}
+
+.link_header-item{
+    color: #cceffc;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.link_header-item:hover{
+    color: #fff;
+}
+
+.link_icon{
+    width: 190px;
+    height: 30px;
+    background-color: #fff;
+    margin: 10px;
+}

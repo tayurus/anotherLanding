@@ -1,0 +1,21 @@
+@font-face {
+    src: url("fonts/OpenSans-Regular.ttf");
+    font-family: "Open Sans";
+}
+
+@font-face {
+    src: url("fonts/Dosis-SemiBold.ttf");
+    font-family: "Dosis - Semi Bold";
+}
+
+*{
+    box-sizing: border-box;
+    transition: .3s;
+    font-family: "Open Sans";
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(#41464f, #202020);
+}

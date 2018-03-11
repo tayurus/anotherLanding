@@ -1,0 +1,31 @@
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row_buttons{
+    max-width: 680px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px auto 0px auto;
+}
+
+.row_timer{
+    max-width: 786px;
+    margin: 15px auto;
+}
+
+.row_images, .row_links{
+    justify-content: space-around;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
+
+.row__roadmap{
+    max-width: 950px;
+    margin: 0px auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
